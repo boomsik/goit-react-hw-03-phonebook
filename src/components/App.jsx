@@ -48,7 +48,7 @@ export default class App extends Component {
 
     // Verify contact
     if (contacts.some(contact => contact.name === name)) {
-      Notify.failure(`${name} is already in contacts`);
+      Notify.failure(`${name} is already in contact`);
       return;
     }
 
